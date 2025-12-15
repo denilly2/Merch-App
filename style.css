@@ -1,5 +1,7 @@
+@import url("https://use.typekit.net/wku5qsy.css");
+
 body {
-  background: #FAF3DD;
+  background: #faf3dd;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,4 +15,51 @@ body {
   border-radius: 40px;
   padding: 40px 24px;
   text-align: center;
+}
+
+.logo {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+width: 275px;
+height: auto;
+}
+
+h1 {
+  font-size: 35px;
+  color: #333;
+  margin-bottom: 16px;
+  text-align: center;
+  font-family: "omnes-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+h2 {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 32px;
+  text-align: center;
+  font-family: "omnes-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.start {
+  margin-top: 80px;
+}
+
+.start a {
+  background:#351303;
+  color:#fff;
+  padding:30px 80px;
+  border-radius:40px;
+  font-size:24px;
+  text-decoration:none;
+  display:inline-block;
 }
