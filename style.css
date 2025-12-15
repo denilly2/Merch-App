@@ -13,7 +13,7 @@ body {
   width: 375px;
   height: 700px;
   border-radius: 40px;
-  padding: 40px 24px;
+  padding: 320px 24px 40px; 
   text-align: center;
 }
 
@@ -62,4 +62,12 @@ h2 {
   font-size:24px;
   text-decoration:none;
   display:inline-block;
+}
+
+
+.topbar {
+display: flex; 
+justify-content: space-between;
+align-items: center;
+  padding: 26px 22px 10px;
 }
