@@ -1,0 +1,16 @@
+body {
+  background: #FAF3DD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background: #fbf4df;
+  width: 375px;
+  height: 700px;
+  border-radius: 40px;
+  padding: 40px 24px;
+  text-align: center;
+}
