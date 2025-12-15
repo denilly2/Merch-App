@@ -13,7 +13,6 @@ body {
   width: 375px;
   height: 700px;
   border-radius: 40px;
-  padding: 320px 24px 40px; 
   text-align: center;
 }
 
@@ -22,6 +21,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+    padding-top: 30px; 
 }
 
 .logo img {
@@ -69,5 +69,58 @@ h2 {
 display: flex; 
 justify-content: space-between;
 align-items: center;
-  padding: 26px 22px 10px;
+padding-top: 35px;
+}
+
+.nieuws {
+font-family: "omnes-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 20px;
+text-align: left;
+padding-left: 10px;
+margin-top: 30px;
+}
+
+.newsimg {
+width: 383.34px;
+height: 157.91px;
+border-radius: 18px;
+
+
+}
+
+
+.producten {
+
+font-family: "omnes-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 20px;
+text-align: left;
+padding-left: 35px;
+margin-top: 30px;
+
+
+}
+
+
+.cap {
+width: 289px;
+height: 293px;
+border-radius: 20px;
+
+
+}
+
+.price {
+
+font-family: "omnes-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 20px;
+
+
+
+
 }
