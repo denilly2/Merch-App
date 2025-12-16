@@ -71,7 +71,7 @@ h2 {
 display: flex; 
 justify-content: space-between;
 align-items: center;
-padding-top: 35px;
+padding-top: 50px;
 }
 
 .nieuws {
@@ -101,7 +101,7 @@ font-style: normal;
 font-size: 20px;
 text-align: left;
 padding-left: 35px;
-margin-top: 30px;
+margin-top: 35px;
 
 
 }
@@ -158,10 +158,11 @@ align-items: center;
 
   font-family: "omnes-pro", sans-serif;
   color: #999;
+  margin-top: 20px;
 }
 
 .pop{
-
+margin-top: 50px;
   display: flex; 
 justify-content: space-between;
 align-items: center;
@@ -169,6 +170,107 @@ padding-top: 35px;
 font-family: omnes-pro, sans-serif;
 font-weight: 700;
 }
+
+.products{
+margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  font-family: omnes-pro, sans-serif;
+}
+
+
+.product {
+text-align: left;
+
+
+}
+
+.product img {
+  width: 100%;
+  height: 150px;
+  border-radius: 20px;
+  background : white;
+  border-radius: 25px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.pprice {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+
+.pname {
+  display: block;
+  font-size: 14px;
+  color: #8a8a8a;
+}
+
+
+/* PRODUCT DETAIL FIX */
+
+.product-detail {
+  padding: 30px 20px;
+  font-family: "omnes-pro", sans-serif;
+}
+
+/* Afbeelding kaart */
+.product-image {
+  position: relative;
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.product-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+}
+
+
+/* Tekst */
+.product-content {
+  text-align: left;
+  margin-top: 25px;
+}
+
+.product-content h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.product-content .price {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.5;
+}
+
+.buy-btn {
+  margin: 30px auto 0;
+  display: block;
+
+  background: #ff7a2f;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+
+  border: none;
+  border-radius: 40px;
+  padding: 18px 60px;
+}
+
 
 
 /* Bottom navigatie bar */
@@ -190,6 +292,7 @@ font-weight: 700;
   align-items: center;
 
   padding: 0 40px;
+   bottom: 0;
 
 }
 
