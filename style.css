@@ -14,6 +14,8 @@ body {
   height: 700px;
   border-radius: 40px;
   text-align: center;
+     position: relative;
+  padding-bottom: 120px; 
 }
 
 .logo {
@@ -137,5 +139,42 @@ width: 10px;
 height: 10px;
 border-radius: 10px;
  background-color: grey; 
+ margin-bottom: 20px;
 
+}
+
+
+
+/* Bottom navigatie bar */
+
+.bar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 90%;
+  max-width: 360px;
+  height: 80px;
+
+  background: #351303;
+  border-radius: 45px; 
+
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+
+  padding: 0 40px;
+
+}
+
+
+.bar a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar img {
+  width: 26px;
+  height: 26px;
 }
