@@ -120,7 +120,22 @@ font-weight: 700;
 font-style: normal;
 font-size: 20px;
 
+}
+
+.circles {
+
+display: flex;
+gap: 8px;
+justify-content: center;
 
 
+}
+
+.circle {
+
+width: 10px;
+height: 10px;
+border-radius: 10px;
+ background-color: grey; 
 
 }
